@@ -1,0 +1,86 @@
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--Cream);
+}
+.the-card {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 1rem;
+  background-color: var(--white);
+  margin-top: 10rem;
+  box-sizing: border-box;
+}
+.the-card h1,
+h2 {
+  font-family: "Fraunces", serif;
+}
+.the-card p {
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  margin: 0;
+  opacity: 90%;
+  line-height: 1.4;
+}
+
+.colm {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.7rem;
+  padding-right: 2rem;
+  margin-bottom: -2rem;
+  margin-top: -1rem;
+}
+.product {
+  height: 430px;
+  padding-right: 1rem;
+  border-radius: 1rem;
+}
+.colm button {
+  width: 210px;
+  height: 42px;
+  background-color: var(--Dark-cyan);
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 900;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  color: white;
+  border: 0;
+}
+.colm button:hover {
+  background-color: hsl(158, 35%, 19%);
+}
+.colm h2 {
+  color: var(--Dark-cyan);
+  font-size: 1.8rem;
+}
+.lil {
+  font-size: 12px;
+  color: var(--grayish-blue);
+  vertical-align: middle;
+  padding-left: 0.8rem;
+}
+
+.colm h1 {
+  line-height: 90%;
+  margin-bottom: 1.7rem;
+}
+
+span img {
+  padding-right: 0.5rem;
+  vertical-align: text-top;
+}
+
+div button {
+  margin-bottom: 0.5rem;
+}
